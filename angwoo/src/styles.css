@@ -4,15 +4,15 @@ html body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 html body main {
   border: 2px solid green;
   margin: auto;
-  width: 80vw;
+  width: 100%;
 }
 html body main #main-section {
-  margin-top: 200px;
+  padding-top: 75px;
+  width: 80vw;
 }
 html body main #main-section #main-content {
   border: 2px solid blue;

@@ -5,15 +5,15 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
 
         main {
             border: 2px solid green;
             margin: auto;
-            width: 80vw;
+            width: 100%;
 
-            #main-section {               
-
+            #main-section {      
+                padding-top: 75px;         
+                width: 80vw;
                 #main-content {
                     border: 2px solid blue;
 
