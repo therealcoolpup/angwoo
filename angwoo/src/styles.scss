@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        main {
+            border: 2px solid green;
+            margin: auto;
+            width: 80vw;
+
+            #main-section {               
+
+                #main-content {
+                    border: 2px solid blue;
+
+                }
+            }
+
+
+            .component-container {
+                padding: 1rem;
+                border: 2px solid red;
+            }
+        }
+    }
+}
